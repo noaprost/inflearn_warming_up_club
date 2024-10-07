@@ -44,7 +44,7 @@ const my_audio = {
   displayCategories() {
     // 여기서 this는 이 객체를 가리킴
     this.categories.forEach((category) => {
-      // 이 this는 상위 스코프에 있는 this를 가리킴. 즉, 이 객체
+      // 여기서 this는 상위 스코프에 있는 this를 가리킴. 즉, 이 객체
       console.log(`title: ${this.title} category: ${category}`);
     });
   },

@@ -16,7 +16,7 @@
  */
 
 /**
- * 웹 페이지 필드 과정 (Critical Rendering Path - CRP)
+ * 웹 페이지 빌드 과정 (Critical Rendering Path - CRP)
  * html 분석 -> dom tree 생성 -> css dom tree 생성 -> 합쳐서 렌더링 트리 생성
  * -> 레이아웃 단계 : 배치할 요소의 위치와 크기를 계산 -> Paint : 실제로 그려짐
  * 렌더링 트리 생성, 위치 계산과 그리는 단계의 비용이 큼
