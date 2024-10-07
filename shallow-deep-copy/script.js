@@ -42,7 +42,7 @@ console.log(newAObject === aObject); // false
 
 // deep copy with nested spread operator
 // 얕은 복사를 중첩된 부분까지 여러번 해주는 개념
-newAObject = { ...aObject, cObject: { ...aObject.cObject } };
+const newBObject = { ...aObject, cObject: { ...aObject.cObject } };
 
 // structuredClone()
 
